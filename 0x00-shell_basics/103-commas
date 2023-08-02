@@ -1,2 +1,2 @@
 #!/bin/bash/
-( ls -d . .. [0-9A-Za-z]* [0-9A-Za-z]*/* | tr '\n' ','; echo ) | tr -d '\n'
+printf "%s," $(ls -d . .. [0-9A-Za-z]* [0-9A-Za-z]*/*); echo
