@@ -1,0 +1,2 @@
+#!/bin/bash/
+ls -a1p | sort -k1.1d,1.1 -k1.2n -t. | tr '\n' ',' && echo
