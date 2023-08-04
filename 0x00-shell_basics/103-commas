@@ -1,2 +1,2 @@
 #!/bin/bash/
-ls -d . .. [0-9A-Za-z]* [0-9A-Za-z]*/* | tr '\n' ',' | sed 's/,$/\n/'
+ls -amvp
