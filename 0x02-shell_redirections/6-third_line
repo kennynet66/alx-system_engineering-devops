@@ -1,2 +1,2 @@
 #!/bin/bash
-awk "NR == 3" iacta
+mapfile -s 2 -tn 1 line <iacta && echo "${line[0]"
